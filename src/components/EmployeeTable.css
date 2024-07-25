@@ -1,0 +1,40 @@
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .employee-table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  td a{
+    margin-right: 10px;
+    text-decoration: none;
+  }
+
+  td button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #f10707;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .action-buttons a:hover,
+  .action-buttons button:hover {
+    background-color: #45a049;
+  }
+  
